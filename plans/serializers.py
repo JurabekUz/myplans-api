@@ -11,5 +11,5 @@ class PlanSerializer(ModelSerializer):
 class HabitSerializer(ModelSerializer):
     class Meta:
         model = Habit
-        fields = ('name', 'repeat', 'part_day', 'finished')
+        fields = ('name', 'repeat_day', 'repeat_week', 'repeat_month', 'part_day', 'finished')
         
